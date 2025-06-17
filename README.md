@@ -1,6 +1,6 @@
 # 🌦️ Weather Dataset Classification using CNN
 
-This project implements a Convolutional Neural Network (CNN) using TensorFlow and Keras to classify weather conditions from images. It is designed to recognize categories such as **cloudy**, **foggy**, **rainy**, and **sunny** based on image input.
+This project implements a Convolutional Neural Network (CNN) - EfficientNetB7 and Trnsfer Learning using TensorFlow and Keras to classify weather conditions from images. It is designed to recognize categories such as **cloudy**, **foggy**, **rainy**, and **sunny** based on image input.
 
 ## 📁 Dataset Structure
 
@@ -28,8 +28,8 @@ Edytuj
 
 The CNN architecture consists of:
 
-- Convolutional layers with ReLU activation
-- MaxPooling layers to reduce spatial dimensions
+- Convolutional layers with ReLU activation (EfficientNetB7)
+- MaxPooling layers to reduce spatial dimensions (EfficientNetB7)
 - Fully connected (Dense) layers
 - A final Softmax layer for multi-class classification
 
